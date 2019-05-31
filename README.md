@@ -9,8 +9,8 @@ Master | [![Build Status](https://travis-ci.org/StolarQQ/Shelfy.svg?branch=maste
 ## What is Shelfy ?
 
 The main goal of this project, is to get to know the ASP.NET Core framework, concepts of REST, using good patterns and practices, used on a daily basis in the world of the software development. <br>
-Shelfy is RESTful API, backend for social cataloging apps, designed to help users to catalog books. Application allow collecting books, authors, reviews and can be accessed by any type of application(web, desktop, mobile applications). Application is based on ASP.NET Core 2.2 Framework. <br><br>
-Data are stored in MongoDB database.
+Shelfy is RESTful API, backend for social cataloging apps, designed to help users to catalog books. Application allow collecting books, authors, reviews and can be accessed by any type of application(web, desktop, mobile applications). Application is based on ASP.NET Core 2.2 framework. <br><br>
+App using MongoDB database.
 Architecture type was implemented based on [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/). <br>In application have been used, __repository__, __IoC__, __Depdency Injection__ patterns. Shelfy implements authorization(__JWT Token__) and authentication, password encryption, simply diagnostic logging(Serilog), domain & service exceptions handle by custom middleware. Unit and integration tests(Not completed). Integration with open-source build server called [Travis-CI](https://travis-ci.org/). <br>
 
 #### __Application is not finished yet.__
