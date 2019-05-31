@@ -794,6 +794,26 @@
 						"description": "Patch Book"
 					},
 					"response": []
+				},
+				{
+					"name": "https://localhost:5001/Book",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/Book",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"Book"
+							]
+						},
+						"description": "BrowseBook"
+					},
+					"response": []
 				}
 			]
 		},
